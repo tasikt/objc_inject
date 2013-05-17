@@ -22,4 +22,9 @@ it provided a script to convert `THEOS/LOGOS-like` hook grammar to real codes.
 
 
 ###Demo and Usage
-checkout `main.m` file and run `make` to see what happened :D
+run `autohook.rb target_file` to generate real-codes. 
+the generated codes will be inserted between blocks:  
+>//-BEGIN-HOOK-GEN-CODES  
+//-END-HOOK-GEN-CODES  
+
+checkout `main.m` file and `make` to see what happened :D
